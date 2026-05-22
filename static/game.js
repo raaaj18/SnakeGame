@@ -7,8 +7,8 @@ const numberOfCells = 25; // Number of cells on the canvas
 const cellSize = Math.floor(canvasWidth / numberOfCells); // Calculate cell size
 const OFFSET = 0; // You can adjust this as needed
 
-const GREEN = 'rgb(173, 204, 96)';
-const DARK_GREEN = 'rgb(43, 51, 24)';
+const GREEN = 'rgb(255, 255, 255)';
+const DARK_GREEN = 'rgb(79, 16, 16)';
 
 let snake = [{ x: 6, y: 9 }, { x: 5, y: 9 }, { x: 4, y: 9 }];
 let direction = { x: 1, y: 0 };
